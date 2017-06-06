@@ -8,21 +8,20 @@
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
-    <name>HelloCordova</name>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Schema: RettApp</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Schema ist ein Teil der OpenSource Rettungsdienstanwendung RettApp. In Schema sollen alle geläufigen Schemata für Rettungsdienstler schnell und kurz erklärt zur Verfügung stehen.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="hello@rettapp.org" href="http://rettapp.org">
+        RettApp Team
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

@@ -1,18 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Schema: RettApp</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Schema ist ein Teil der OpenSource Rettungsdienstanwendung RettApp. In Schema sollen alle geläufigen Schemata für Rettungsdienstler schnell und kurz erklärt zur Verfügung stehen.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="hello@rettapp.org" href="http://rettapp.org">
+        RettApp Team
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
 </widget>
