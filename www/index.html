@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
+    <!--
+    Project: org.rettapp.schema
+    Author: Jonathan Starck
+    License: GNU GENERAL PUBLIC Version2, June 1991 & European Union Public Licence
+    Source: https://github.com/RettApp/org.rettapp.schema
+    -->
     <head>
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="frame/jquery.mobile/1.4.5/jquery.mobile.min.css">
+        <link rel="stylesheet" href="css/custom.css">
         <title>RettApp</title>
     </head>
     <body>
-        <div data-role="page">
-            <div data-role="header">
-                <h1>Page Title</h1>
-            </div>
-            <div role="main" class="ui-content">Willkommen</div>
-            <div data-role="footer">
-                <h4>&copy; 2017 - RettApp by Jonathan Starck</h4>
+        <div data-role="dialog" id="main-01-disclaimer">
+            <div data-role="pages" role="main" class="ui-content">
+                <div class="rettapp-banner">
+                    <img src="img/rettapp_973x235_banner.png" alt="RettApp Logo"/>
+                </div>
+                <p>Die Inhalte dieser App werden mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte. Die Nutzung der Inhalte der Website erfolgt auf eigene Gefahr des Nutzers. Dies gilt explizit‎ für Dosierungen von Medikamente. Die App stellt im Bereich Medikamente lediglich eine Hilfestellung da. Es gelten die allgemeine Gesetze sowie die Richtlinien des regional zuständigen Ärztlichen Leiter Rettungsdienst.</p>
+                <p>Diese App ist von Rettungsdienstler für Rettungsdienstler - uns ist wichtig, dass alle Informationen kostenlos und frei zugänglich für Sie zur Verfügung gestellt werden! Wir sprechen uns klar gegen z.B. kostenpflichtige SOP-Apps aus! Daher steht die RettApp unter der<br />"GNU General Public License (GPL) v. 2" und der "European Union Public Licence (EUPL)".</p>
+                <a href="#main-02-index" class="ui-btn ui-icon-check ui-btn-icon-left ui-corner-all startuplink">Gelesen und Einverstanden</a>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
